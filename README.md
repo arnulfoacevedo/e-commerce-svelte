@@ -1,5 +1,4 @@
 
-
 ## The Stack
 
 - ⚙️ [SvelteKit]("https://kit.svelte.dev/docs/introduction"): Full stack JS framework that handles our server and client side code
@@ -47,8 +46,3 @@ In order to run this project you will need to setup **Cloudinary, Stripe, GitHub
 3. Create your products in stripe, then add them to the ```seed.ts``` file where it is marked "TODO STRIPE:" (it is also a good idea to change the products, prices, and images in the ```seed.ts``` file to match your own products)
 4. Install the stripe CLI and get webhook signing secret: https://stripe.com/docs/stripe-cli, then add it your your ```.env```:
 ```STRIPE_WEBHOOK_SECRET="whsec_..."```
-
-
-## License
-
-You are free to use this code as you wish, just not any of the images or text for sediment art. If you do use this code, please give credit to this repo and the contributors.
