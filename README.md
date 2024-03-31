@@ -1,10 +1,4 @@
-# SvelteKit E-Commerce Site: Sediment Art
 
-This is a real world e-commerce site which uses Stripe for payments and Cloudinary for image hosting. It is built with SvelteKit and TypeScript, and is currently in production!
-
-## Video Setup
-
-https://youtu.be/E_pF4rL2gVE
 
 ## The Stack
 
@@ -54,26 +48,6 @@ In order to run this project you will need to setup **Cloudinary, Stripe, GitHub
 4. Install the stripe CLI and get webhook signing secret: https://stripe.com/docs/stripe-cli, then add it your your ```.env```:
 ```STRIPE_WEBHOOK_SECRET="whsec_..."```
 
-### GitHub OAuth
-
-1. Create a new GitHub OAuth app: https://github.com/settings/developers, make sure you set the redirect url to ```http://localhost:5173/auth/callback/github```
-2. Add your client id and secret to the ```.env```:
-```GITHUB_CLIENT_ID="your env here"```
-```GITHUB_CLIENT_SECRET="your env here"```
-
-### Run the project
-
-1. Install the dependencies with ```pnpm i```
-2. Run the project with ```pnpm run dev```
-
-## Contributors
-
-*Thanks to all who have helped out and made this project possible!*
-
-- [llmaboi](https://github.com/llmaboi)
-- [Peter Buschenreiter](https://github.com/Peter-512)
-- [Miguel Gargallo](https://github.com/miguelgargallo)
-- [Patrick](https://github.com/PatrickG)
 
 ## License
 
